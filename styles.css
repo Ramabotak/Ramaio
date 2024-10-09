@@ -1,0 +1,59 @@
+body{
+    background: url(merpati-removebg-preview.png)bottom right no-repeat fixed,
+    url(kimi\ no\ nawa\ 2.webp) bottom right no-repeat fixed;
+    background-size: 100px 100px, 100% 100%;
+     /* contain , cover , 100% 100% */
+
+
+}
+ol li::marker{
+    color: chocolate;
+}
+
+ul.marker_pink li{
+    color: rgb(255, 235, 192);
+}
+*{
+    color:aliceblue;
+    padding:10px 10px;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    color:white;
+    text-align: center;
+     
+}
+
+tr:nth-child(even){
+    background:rgb(222,184,135);
+}
+
+tr:nth-child(odd) {
+    background:  rgb(193, 156, 109);
+
+}
+
+td,th{
+    width: 50px;
+    height: 50px;
+}
+tr:hover{
+    background:gray ;
+}
+a:link{
+    background:cyan;
+    color:white;
+}
+a:visited{
+background: green;
+color:aliceblue
+}
+a:active{
+    background-color: black;
+    color:rgb(49, 145, 145);
+}
+a:hover{
+    background: purple;
+    color: blue;
+}
