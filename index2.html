@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir - Muhammad Rizqy Ramadhan</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="">
+        Nama <input type="text" placeholder="Ketikan Namamu" name="username"> <br>
+        Kota lahir <input type="text" placeholder="ketikan kota lahirmu" name="kota_lahir" list="kota_lahir"> 
+        <datalist id="kota_lahir"> 
+            <option value="Semarang">Semarang</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Ungaran">Ungaran</option>
+            <option value="Demak">Demak</option>
+            </datalist> 
+        <br>
+        Tanggal lahir <input type="date" name="ttl"> <br>
+        Gender <input type="radio" value="Pria" name="Gender">
+        Pria
+        <input type="radio" value="Wanita" name="Gender"> 
+        Wanita
+        <br>
+        Agama
+        <select name="Agama" id="">
+        <option value="Islam">Islam</option>
+        <option value="Katolik">Katolik</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Buddha">Buddha</option>
+        <option value="Konghucu">Konghucu</option>
+        </select>
+        <br>
+        Alamat
+         <textarea name="Alamat" cols="30" rows="10" id=""></textarea> <br>
+        Hobi
+        <input type="checkbox" value="Memasak" name="Hobi"> Memasak
+        <input type="checkbox" value="Menyanyi" name="Hobi"> Menyanyi
+        <input type="checkbox" value="Mendengarkan Music" name="Hobi"> Mendengarkan Music
+        <br>
+        <input type="reset" name="reset" value="Clear">
+        <input type="submit" name="submit" value="Send">
+        <a href="index.html">balik</a>
+       
+
+    </form>
+</body>
+</html>
